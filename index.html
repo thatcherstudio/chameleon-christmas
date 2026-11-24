@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Chameleon Christmas</title>
+<meta name="description" content="A chameleon is hiding in the Christmas tree. A gentle hidden-object game for iPhone and iPad.">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root {
+    --bg: #fbf6ea;
+    --text: #1d1b33;
+    --muted: #5b5872;
+    --border: #e6dcc4;
+    --accent: #176b4c;
+    --accent-soft: #e3f1e9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1036;
+      --text: #fff1cf;
+      --muted: #c9c1aa;
+      --border: #2b3670;
+      --accent: #8fdcb4;
+      --accent-soft: #15392f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem; }
+  img { width: 128px; height: 128px; border-radius: 28px; display: block; margin-bottom: 1.25rem; }
+  h1 { margin: 0 0 .4rem; font-size: 2rem; line-height: 1.2; }
+  p { margin: 0 0 1rem; }
+  .lede { font-size: 1.1rem; }
+  nav { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
+  nav a {
+    padding: .55rem 1rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <img src="icon.png" alt="Chameleon Christmas app icon: a red chameleon in a lit Christmas tree">
+  <h1>Chameleon Christmas</h1>
+  <p class="lede">A chameleon is hiding in the Christmas tree. Find him, hang the ornaments, and light up the tree.</p>
+  <p>A gentle hidden-object game for iPhone and iPad. No ads, nothing to buy, no internet needed, and it collects no data.</p>
+  <nav>
+    <a href="support.html">Support</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </nav>
+  <footer>
+    <p>Chameleon Christmas by Andrew Watkins</p>
+  </footer>
+</main>
+</body>
+</html>
